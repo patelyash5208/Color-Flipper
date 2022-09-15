@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color flipper</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+        }
+        .navbar-links {
+            text-align: center;
+            justify-content: center;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+        }
+        .container {
+            text-align: center;
+            margin-top: 15%;
+        }
+        .box {
+            border: solid black 2px;
+            color: white;
+            background-color: black;
+            padding: 1.5rem;
+            width: max-content;
+            margin: auto;
+        }
+        #btn {
+            margin: 0.5rem;
+            padding: 0,5rem 1rem;
+            font-size: 1.8rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <h1>Color Flipper</h1>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <h2 class="box">Background color : <span class="color">#000000</span></h2>
+            <button class="btn" id="btn">Click me</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
